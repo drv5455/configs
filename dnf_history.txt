@@ -1,0 +1,105 @@
+ID     | Command line             | Date and time    | Action(s)      | Altered
+-------------------------------------------------------------------------------
+   103 | install virtio-win       | 2017-12-28 09:15 | Install        |    1  <
+   102 | install pithos           | 2017-12-14 09:25 | Install        |    3 > 
+   101 | install chrome-remote-de | 2017-12-01 15:34 | Install        |    6  <
+   100 |                          | 2017-11-27 15:21 | Install        |    1 ><
+    99 | install vlc              | 2017-09-18 17:33 | Install        |   39 > 
+    98 | install https://download | 2017-09-18 17:32 | Install        |    1   
+    97 | install gcc gcc-c++ libs | 2017-09-08 16:13 | Install        |    1   
+    96 | install ncurses-compat-l | 2017-09-07 14:37 | Install        |    1   
+    95 | install ncurses-c++-libs | 2017-09-07 14:37 | Install        |    1   
+    94 | install libXft.i686      | 2017-09-07 14:36 | Install        |    1  <
+    93 | autoremove               | 2017-08-10 13:40 | Erase          |   19 > 
+    92 | remove tightvnc-server   | 2017-08-10 13:39 | Erase          |    1   
+    91 | install @xfce-desktop-en | 2017-08-08 11:32 | I, U           |  174  <
+    90 | -y install tigervnc-serv | 2017-08-08 10:13 | Install        |    2 > 
+    89 | install beesu            | 2017-08-02 14:43 | Install        |    2   
+    88 | install kernel-devel     | 2017-08-01 23:55 | Install        |    1   
+    87 | install chrome-gnome-she | 2017-08-01 18:06 | Install        |    1   
+    86 | remove chrome-remote-des | 2017-08-01 18:05 | Erase          |    1   
+    85 | install chrome-remote-de | 2017-08-01 18:03 | Install        |    4   
+    84 | remove chrome-gnome-shel | 2017-08-01 18:03 | Erase          |    1   
+    83 | update                   | 2017-07-31 13:38 | E, I, O, U     |  365 E<
+    82 | install libguestfs-tools | 2017-07-25 17:08 | Install        |   14 > 
+    81 | install chrome-gnome-she | 2017-07-21 14:13 | Install        |    1   
+    80 | install google-drive-oca | 2017-07-21 11:55 | Install        |    1   
+    79 | install imagej           | 2017-07-20 16:47 | Install        |    1  <
+    78 | install nfs-utils-1:1.3. | 2017-06-27 11:16 | Install        |    1 ><
+    77 | install nfs-utils-1:1.3. | 2017-06-27 11:03 | Downgrade      |    1 >E
+    76 | reinstall rpcbind        | 2017-06-27 10:24 | O, R           |    3  <
+    75 | upgrade                  | 2017-06-26 23:24 | E, I, U        |   28 > 
+    74 | reinstall rpcbind        | 2017-06-26 22:38 | Reinstall      |    1 **
+    73 | install nfs-utils        | 2017-06-24 11:13 | Install        |    1  <
+    72 | update                   | 2017-06-23 17:53 | E, I, U        |  197 >E
+    71 | install samba            | 2017-06-07 15:38 | Install        |    4   
+    70 | remove kernel-4.11.3-200 | 2017-06-05 17:43 | Erase          |    1   
+    69 | reinstall nfs-utils      | 2017-06-05 17:37 | O, R           |    4   
+    68 | reinstall nfs-utils      | 2017-06-05 17:31 | O, R           |    3 **
+    67 | reinstall nfs-utils      | 2017-06-05 17:22 | Reinstall      |    1 *<
+    66 | install p7zip            | 2017-06-02 17:14 | Install        |    1 ><
+    65 | install dpkg             | 2017-06-01 14:33 | Install        |    1 ><
+    64 | install --allowerasing l | 2017-05-25 13:55 | E, I           |    4 > 
+    63 | install gdm              | 2017-05-24 17:19 | Install        |   17   
+    62 | remove vino-3.22.0-1.fc2 | 2017-05-24 16:49 | Erase          |   29  <
+    61 | install libvirt-client   | 2017-05-24 09:19 | I, U           |   16 > 
+    60 | install iperf            | 2017-05-15 15:05 | Install        |    1   
+    59 | install xpra             | 2017-05-10 14:08 | Install        |    6  <
+    58 | install makeself-2.2.0-5 | 2017-04-28 10:59 | Install        |    1 > 
+    57 | install latexmk          | 2017-04-25 10:32 | Install        |    1   
+    56 | install texlive-ulem     | 2017-04-25 10:18 | Install        |    1   
+    55 | install texlive-upquote  | 2017-04-25 10:17 | Install        |    1   
+    54 | install texlive-adjustbo | 2017-04-25 10:17 | Install        |    3   
+    53 | install pandoc           | 2017-04-25 10:12 | Install        |   58   
+    52 | install texlive          | 2017-04-25 10:12 | Install        |    2   
+    51 | install gimp             | 2017-04-14 15:55 | Install        |    9  <
+    50 | install mtd-utils        | 2017-04-10 13:40 | Install        |    1 ><
+    49 | install solaar           | 2017-04-03 15:36 | Install        |    3 ><
+    48 | builddep mutter          | 2017-03-27 14:34 | I, U           |   76 > 
+    47 | install gettext-devel    | 2017-03-27 14:31 | Install        |    2   
+    46 | install gnome-common     | 2017-03-27 13:38 | Install        |    5  <
+    45 | install digilent.adept.r | 2017-03-25 16:07 | Install        |    1 > 
+    44 | install VirtualBox-5.1-5 | 2017-03-25 11:36 | Install        |    1 EE
+    43 | update                   | 2017-03-23 19:09 | I, U           |   20 EE
+    42 | install virt-manager     | 2017-03-23 18:19 | Install        |    5   
+    41 | install xorg-x11-drv-amd | 2017-03-23 15:52 | Install        |    1  <
+    40 | install -y help2man-1.47 | 2017-03-21 11:21 | Install        |    1 > 
+    39 | install gperf            | 2017-03-21 11:21 | Install        |    1   
+    38 | update                   | 2017-03-20 16:41 | I, O, U        |  701 EE
+    37 | remove iverilog-10-2.fc2 | 2017-03-20 16:40 | Erase          |   13  <
+    36 | install tftp-server      | 2017-03-09 09:56 | Install        |    1 > 
+    35 | install genext2fs-1.4.1- | 2017-03-08 10:52 | Install        |    1   
+    34 | install synergy-1.7.6-1. | 2017-02-24 10:17 | Install        |    1  <
+    33 | install hamster-time-tra | 2017-02-13 09:20 | Install        |    4 > 
+    32 | install task             | 2017-02-13 09:12 | Install        |    1   
+    31 | install gnome-shell-exte | 2017-02-10 14:03 | Install        |    1   
+    30 | install gvim             | 2017-02-10 13:57 | I, U           |    3   
+    29 | install git-svn          | 2017-02-09 13:20 | Install        |    5  <
+    28 | install htop             | 2017-02-07 17:05 | Install        |    1 ><
+    27 | install gitk             | 2017-02-06 11:17 | Install        |    1 > 
+    26 | install ncurses-devel    | 2017-02-03 16:58 | Install        |    2   
+    25 | remove ccache            | 2017-02-03 16:57 | Erase          |    1   
+    24 | install glibc-devel.i686 | 2017-02-03 16:42 | Install        |    1   
+    23 | remove synergy           | 2017-02-03 15:47 | Erase          |    1  <
+    22 | install -y minicom       | 2017-02-03 14:59 | Install        |    1 > 
+    21 | install synergy          | 2017-02-03 14:23 | Install        |    1   
+    20 | install -y openssl-devel | 2017-02-03 14:11 | Install        |    7   
+    19 | install -y ncurses-libs. | 2017-02-03 14:10 | Install        |    1   
+    18 | install -y mesa-libGL.i6 | 2017-02-03 14:09 | Install        |   12   
+    17 | install -y libusb.i686   | 2017-02-03 14:08 | Install        |   11   
+    16 | install -y libstdc++.i68 | 2017-02-03 14:08 | Install        |    2   
+    15 | install libSM.i686       | 2017-02-03 14:08 | Install        |    2   
+    14 | install libICE.i686      | 2017-02-03 14:07 | Install        |    1   
+    13 | install fontconfig.i686  | 2017-02-03 14:07 | Install        |    9   
+    12 | install remmina          | 2017-02-03 13:42 | Install        |   20   
+    11 | install rsnapshot        | 2017-02-03 13:42 | Install        |    1   
+    10 | install okular           | 2017-02-03 13:41 | Install        |   12   
+     9 | install vim-powerline    | 2017-02-03 12:21 | Install        |    1   
+     8 | install tmux-powerline   | 2017-02-03 12:21 | Install        |    1   
+     7 | install meld             | 2017-02-03 12:17 | Install        |    1   
+     6 | install vim              | 2017-02-03 12:06 | Install        |    1   
+     5 | install autofs           | 2017-02-03 12:05 | Install        |    2   
+     4 | install google-chrome-st | 2017-02-03 11:59 | Install        |   87 EE
+     3 | install powerline        | 2017-02-03 11:57 | Install        |    6   
+     2 | install tmux             | 2017-02-03 11:57 | Install        |    1   
+     1 |                          | 2017-02-03 11:28 | Install        | 2868 EE
