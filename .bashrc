@@ -24,7 +24,7 @@ alias almake='make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j8 LOADADDR=0x80
 alias gits='git status --column'
 alias gitsu='git status --column --untracked-files=no' 
 alias gitc='git commit'
-alias ashell='~/altera/16.0/embedded/embedded_command_shell.sh'
+alias ashell='/opt/intelFPGA/17.1/embedded/embedded_command_shell.sh'
 alias pmake='make ARCH=arm CROSS_COMPILE=arm-poky-linux-gnueabi- -j8 LOADADDR=0x8000'
 alias l138shell='. /usr/local/oecore-x86_64/environment-setup-armv5te-angstrom-linux-gnueabi'
 alias xshell='. ~/Xilinx/13.2/ISE_DS/settings64.sh'
